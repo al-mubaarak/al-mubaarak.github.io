@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+/*    overflow-y: hidden;*/
+}
+
+.row-1{     
+    width: 35%;
+    height: 110vh;
+    background-color: darkblue;
+    opacity: 0.7;
+}
+
+.header{
+    font-size: 1.2em;
+    font-family: monospace;
+}
+
+.one{
+   margin-left: 5em;
+    margin-top: 2em;
+    color: white;
+}
+
+.row{
+    margin-left: 5em; 
+    margin-top: 10em;
+    color: white;
+}
+
+.fa{
+    font-size: 4.8em;
+    width: 70vw;
+}
+
+h4{
+    margin-top: 2em; font-family: cursive
+}
+
+.but{
+    padding: 20px 12px;
+    width: 7em;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    margin-top: 1.7em;
+    font-family: monospace;
+    background-color: darkblue;
+}
+
+.but:hover{
+    background-color: white;
+    padding: 22px 14px;
+}
+
+.hire{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:checked{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.hire:hover{
+    color: darkblue;
+    font-size: 1.25em;
+}
+
+/*
+.fa-play-circle{
+
+    margin-left: 5em;
+    font-size: 4.5em;
+}
+*/
+
+.footer{
+    margin-top: 7em;
+    margin-left: 5em;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.fa-whatsapp{
+    margin: .1em 0.7em 0 0.1em;
+}
+
+.fa-stack{
+    font-size: 0.7em;
+    margin-bottom: 5px;
+    margin-right: 0.7em;
+}
+
+.fa-instagram{
+     font-size: 1.4em;
+   
+}
+
+
+/* this is where row-1 ends */
+
+/*row-2 starts here */
+
+.row-2{
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image{
+    width: 100%;
+    height: 75%;
+    background: linear-gradient( rgba(255,255,255, .1 ), rgba(0,0,0, .4)),
+        url(../Images/port.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.text{
+    width: 100%;
+    height: 25%;
+}
+
+.lorem{
+    margin:1.2em 0 0 2.5em;
+    font-size: 1.25em;
+}
+
+.button{
+    background-color: darkslategray;
+    opacity: ;
+    color: white;
+    padding: 1em 2em;
+    font-size:.9em;
+    margin: 3em 0 0 3.4em;
+    border-style: none;
+    border-radius: .3em;
+    font-family: monospace;
+    
+}
+
+.res{
+    text-decoration: none;
+}
+
+
+/*row-2 ends here!!!  */
+/* row-3 starts here!!!  */
+
+.row-3{
+    width: 5%;
+   height: 100vh;
+    background-color: darkslategray;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+.af{
+    color: white;
+    margin: 2em 0 0 1.1em;
+    font-size: 1.5em;
+}
+
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100vh;
+}
+
+li{
+    transform: rotate(90deg);
+    margin:40px 0;
+}
+
+li>a{
+     list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+}
+
+li>a:hover{
+    font-size: 16px;
+    
+    
+}
+
+.about:hover{
+    font-size: 12.6px;
+    font-style: normal;
+}
+
+
+
+
+
+
+
